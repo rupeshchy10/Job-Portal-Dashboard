@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TopSellingItem({ item }) {
+function Recent_Seekers_Item({ item }) {
     return (
         <tr>
             <th scope="row">
@@ -20,4 +20,4 @@ function TopSellingItem({ item }) {
     );
 }
 
-export default TopSellingItem;
+export default Recent_Seekers_Item;

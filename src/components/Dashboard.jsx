@@ -3,8 +3,8 @@ import './dashboard.css';
 
 import Cards from './Cards';
 import Reports from './Reports';
-import RecentSales from './RecentSales';
-import TopSelling from './TopSelling';
+import RecentJobs from './RecentJobs';
+import Recent_Seekers from './Recent_Seekers';
 import RecentActivity from './RecentActivity';
 import E_Report from './E_Report';
 import WebTraffic from './WebTraffic';
@@ -21,10 +21,10 @@ function Dashboard() {
                             <Reports />
                         </div>
                         <div className="col-12">
-                            <RecentSales />
+                            <RecentJobs />
                         </div>
                         <div className="col-12">
-                            <TopSelling />
+                            <Recent_Seekers />
                         </div>
                     </div>
                 </div>

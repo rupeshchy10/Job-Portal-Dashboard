@@ -1,6 +1,6 @@
 import React from 'react';
 
-function RecentSalesTable({ items }) {
+function RecentJobsTable({ items }) {
     const handleStatus = status => {
         switch (status) {
             case 'Approved':
@@ -55,4 +55,4 @@ function RecentSalesTable({ items }) {
     );
 }
 
-export default RecentSalesTable;
+export default RecentJobsTable;

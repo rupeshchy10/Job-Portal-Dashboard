@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './recentSales.css';
+import './recentJobs.css';
 import CardFilter from './CardFilter';
-import RecentSalesTable from './RecentSalesTable';
+import RecentJobsTable from './RecentJobsTable';
 
-function RecentSales() {
+function RecentJobs() {
     const [items, setItems] = useState([]);
     const [filter, setFilter] = useState('Today');
     const handleFilterChange = filter => {
@@ -11,7 +11,7 @@ function RecentSales() {
     };
 
     const fetchData = () => {
-        fetch('http://localhost:4000/recentsales')
+        fetch('http://localhost:4000/RecentJobs')
             .then(res => res.json())
             .then(data => {
                 setItems(data);
@@ -31,10 +31,10 @@ function RecentSales() {
                 <h5 className="card-title">
                     Recent Jobs<span> | {filter}</span>
                 </h5>
-                <RecentSalesTable items={items} />
+                <RecentJobsTable items={items} />
             </div>
         </div>
     );
 }
 
-export default RecentSales;
+export default RecentJobs;

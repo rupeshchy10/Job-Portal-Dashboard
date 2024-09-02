@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './topSelling.css';
+import './recentSeekers.css';
 import CardFilter from './CardFilter';
-import TopSellingItem from './TopSellingItem';
+import Recent_Seekers_Item from './Recent_Seekers_Item';
 
-function TopSelling() {
+function Recent_Seekers() {
     const [items, setItems] = useState([]);
     const [filter, setFilter] = useState('Today');
     const handleFilterChange = filter => {
@@ -11,7 +11,7 @@ function TopSelling() {
     };
 
     const fetchData = () => {
-        fetch('http://localhost:4000/topselling')
+        fetch('http://localhost:4000/recentSeekers')
             .then(res => res.json())
             .then(data => {
                 setItems(data);
@@ -45,7 +45,7 @@ function TopSelling() {
                     <tbody>
                         {items &&
                             items.length > 0 &&
-                            items.map(item => <TopSellingItem key={item._id} item={item} />)}
+                            items.map(item => <Recent_Seekers_Item key={item._id} item={item} />)}
                     </tbody>
                 </table>
             </div>
@@ -53,4 +53,4 @@ function TopSelling() {
     );
 }
 
-export default TopSelling;
+export default Recent_Seekers;
