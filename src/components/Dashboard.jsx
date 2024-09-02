@@ -6,7 +6,7 @@ import Reports from './Reports';
 import RecentSales from './RecentSales';
 import TopSelling from './TopSelling';
 import RecentActivity from './RecentActivity';
-import BudgetReport from './BudgetReport';
+import E_Report from './E_Report';
 import WebTraffic from './WebTraffic';
 import News from './News';
 
@@ -30,7 +30,7 @@ function Dashboard() {
                 </div>
                 <div className="col-lg-4">
                     <RecentActivity />
-                    <BudgetReport />
+                    <E_Report />
                     <WebTraffic />
                     <News />
                 </div>

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import * as echarts from 'echarts';
 
-function BudgetChart() {
+function E_Chart() {
     useEffect(() => {
-        echarts.init(document.querySelector('#budgetChart')).setOption({
+        echarts.init(document.querySelector('#E_Chart')).setOption({
             legend: {
                 data: ['Recruiters', 'Seekers'],
             },
@@ -56,11 +56,11 @@ function BudgetChart() {
     }, []);
     return (
         <div
-            id="budgetChart"
+            id="E_Chart"
             style={{ minHeight: '400px'}}
             className="echart"
         ></div>
     );
 }
 
-export default BudgetChart;
+export default E_Chart;

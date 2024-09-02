@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import CardFilter from './CardFilter';
-import BudgetChart from './BudgetChart';
+import E_Chart from './E_Chart';
 
-function BudgetReport() {
+function E_Report() {
     const [filter, setFilter] = useState('Today');
     const handleFilterChange = filter => {
         setFilter(filter);
@@ -16,10 +16,10 @@ function BudgetReport() {
                 <h5 className="card-title">
                     EChart<span> | {filter}</span>
                 </h5>
-                <BudgetChart />
+                <E_Chart />
             </div>
         </div>
     );
 }
 
-export default BudgetReport;
+export default E_Report;
