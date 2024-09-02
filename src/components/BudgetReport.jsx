@@ -14,7 +14,7 @@ function BudgetReport() {
 
             <div className="card-body pb-0">
                 <h5 className="card-title">
-                    Budget Report<span> | {filter}</span>
+                    EChart<span> | {filter}</span>
                 </h5>
                 <BudgetChart />
             </div>

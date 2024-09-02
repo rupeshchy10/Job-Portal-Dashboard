@@ -34,23 +34,23 @@ function WebTrafficChart() {
                     data: [
                         {
                             value: 1048,
-                            name: 'Search Engine',
+                            name: 'AI Engineer',
                         },
                         {
                             value: 735,
-                            name: 'Direct',
+                            name: 'Data Analyst',
                         },
                         {
                             value: 580,
-                            name: 'Email',
+                            name: 'Web Developer',
                         },
                         {
                             value: 484,
-                            name: 'Union Ads',
+                            name: 'Marketing',
                         },
                         {
                             value: 300,
-                            name: 'Video Ads',
+                            name: 'Others',
                         },
                     ],
                 },

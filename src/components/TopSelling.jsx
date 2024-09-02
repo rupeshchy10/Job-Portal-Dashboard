@@ -29,13 +29,13 @@ function TopSelling() {
 
             <div className="card-body pb-0">
                 <h5 className="card-title">
-                    Top Selling<span> | {filter}</span>
+                    Recent Seekers<span> | {filter}</span>
                 </h5>
 
                 <table className="table table-borderless">
                     <thead className="table-light">
                         <tr>
-                            <th scope="col">Preview</th>
+                            <th scope="col">Photo</th>
                             <th scope="col">Product</th>
                             <th scope="col">Price</th>
                             <th scope="col">Sold</th>

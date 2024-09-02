@@ -13,7 +13,7 @@ function WebTraffic() {
             <CardFilter filterChange={handleFilterChange} />
             <div className="card-body pb-0">
                 <h5 className="card-title">
-                    Web Traffic<span> | {filter}</span>
+                    Trending Jobs<span> | {filter}</span>
                 </h5>
                 <WebTrafficChart />
             </div>

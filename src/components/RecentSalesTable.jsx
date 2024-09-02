@@ -21,10 +21,10 @@ function RecentSalesTable({ items }) {
         <table className="table table-borderless datatable">
             <thead className="table-dark">
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Customer</th>
-                    <th scope="col">Product</th>
-                    <th scope="col">Price</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Company</th>
+                    <th scope="col">Job</th>
+                    <th scope="col">Seats</th>
                     <th scope="col">Status</th>
                 </tr>
             </thead>
@@ -34,15 +34,15 @@ function RecentSalesTable({ items }) {
                     items.map(item => (
                         <tr key={item._id}>
                             <th scope="row">
-                                <a href="#">#{item.number}</a>
+                                <a href="#">{item.number}</a>
                             </th>
-                            <td>{item.customer}</td>
+                            <td>{item.company}</td>
                             <td>
                                 <a href="#" className="text-primary">
-                                    {item.product}
+                                    {item.job}
                                 </a>
                             </td>
-                            <td>${item.price.toFixed(2)}</td>
+                            <td>{item.seat}</td>
                             <td>
                                 <span className={`badge bg-${handleStatus(item.status)}`}>
                                     {item.status}

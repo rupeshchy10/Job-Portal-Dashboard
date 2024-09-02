@@ -29,7 +29,7 @@ function RecentSales() {
 
             <div className="card-body">
                 <h5 className="card-title">
-                    Recent Sales<span> | {filter}</span>
+                    Recent Jobs<span> | {filter}</span>
                 </h5>
                 <RecentSalesTable items={items} />
             </div>

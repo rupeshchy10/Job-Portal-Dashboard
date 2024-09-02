@@ -3,7 +3,7 @@
         {
             "_id": 1,
             "name": "Companies",
-            "icon": "bi bi-cart",
+            "icon": "bi bi-buildings",
             "amount": 145,
             "percentage": 0.12,
             "active": true
@@ -11,7 +11,7 @@
         {
             "_id": 2,
             "name": "Job Seekers",
-            "icon": "bi bi-currency-dollar",
+            "icon": "bi bi-people",
             "amount": 3246,
             "percentage": 0.08,
             "active": false
@@ -19,7 +19,7 @@
         {
             "_id": 3,
             "name": "Jobs",
-            "icon": "bi bi-people",
+            "icon": "bi bi-person-workspace",
             "amount": 1244,
             "percentage": -0.11,
             "active": false
@@ -102,42 +102,42 @@
     "recentsales": [
         {
             "_id": 1,
-            "number": "#2457",
-            "customer": "Brandon Jacob",
-            "product": "At praesentium minu",
-            "price": 64,
+            "number": "1",
+            "company": "Google LLC",
+            "job": "AI Engineer",
+            "seat": 64,
             "status": "Approved"
         },
         {
             "_id": 2,
-            "number": "#2147",
-            "customer": "Bridie Kessler",
-            "product": "Blanditiis dolor omnis similique",
-            "price": 47,
+            "number": "2",
+            "company": "Albhabets Inc.",
+            "job": "Software Engineer",
+            "seat": 47,
             "status": "Pending"
         },
         {
             "_id": 3,
-            "number": "#2049",
-            "customer": "Ashleigh Langosh",
-            "product": "At recusandae consectetur",
-            "price": 147,
+            "number": "3",
+            "company": "Tesla, Inc.",
+            "job": "Data Analyst",
+            "seat": 147,
             "status": "Approved"
         },
         {
             "_id": 4,
-            "number": "#2644",
-            "customer": "Angus Grady",
-            "product": "Ut voluptatem id earum et",
-            "price": 67,
+            "number": "4",
+            "company": "Microsoft Corporation",
+            "job": "Dot Net Developer",
+            "seat": 67,
             "status": "Rejected"
         },
         {
             "_id": 5,
-            "number": "#3592",
-            "customer": "Raheem Lehner",
-            "product": "Sunt similique distinctio",
-            "price": 135,
+            "number": "5",
+            "company": "Facebook, Inc.",
+            "job": "Full Stack Developer",
+            "seat": 135,
             "status": "Approved"
         }
     ],

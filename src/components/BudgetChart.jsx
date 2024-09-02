@@ -5,29 +5,29 @@ function BudgetChart() {
     useEffect(() => {
         echarts.init(document.querySelector('#budgetChart')).setOption({
             legend: {
-                data: ['Allocated Budget', 'Actual Spending'],
+                data: ['Recruiters', 'Seekers'],
             },
             radar: {
                 shape: 'circle',
                 indicator: [
                     {
-                        name: 'Sales',
+                        name: 'AI Engineer',
                         max: 6500,
                     },
                     {
-                        name: 'Administration',
+                        name: 'Software Engineer',
                         max: 16000,
                     },
                     {
-                        name: 'Information Technology',
+                        name: 'Data Analyst',
                         max: 30000,
                     },
                     {
-                        name: 'Customer Support',
+                        name: 'Dot Net Developer',
                         max: 38000,
                     },
                     {
-                        name: 'Development',
+                        name: 'Full Stack',
                         max: 52000,
                     },
                     {
@@ -43,11 +43,11 @@ function BudgetChart() {
                     data: [
                         {
                             value: [4200, 3000, 20000, 35000, 50000, 18000],
-                            name: 'Allocated Budget',
+                            name: 'Recruiters',
                         },
                         {
                             value: [5000, 14000, 28000, 26000, 42000, 21000],
-                            name: 'Actual Spending',
+                            name: 'Seekers',
                         },
                     ],
                 },

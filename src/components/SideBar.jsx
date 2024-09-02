@@ -22,7 +22,7 @@ function SideBar() {
                         href="#"
                     >
                         <i className="bi bi-menu-button-wide"></i>
-                        <span>Documents</span>
+                        <span>Members</span>
                         <i className="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul
@@ -33,22 +33,16 @@ function SideBar() {
                         <li>
                             <a href="#">
                                 <i className="bi bi-circle"></i>
-                                <span>Customers</span>
+                                <span>Recruiters</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <i className="bi bi-circle"></i>
-                                <span>Suppliers</span>
+                                <span>Job Seekers</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i className="bi bi-circle"></i>
-                                <span>Logistic</span>
-                            </a>
-                        </li>
-                    </ul>
+                     </ul>
                 </li>
 
                 <li className="nav-item">
@@ -59,7 +53,7 @@ function SideBar() {
                         href="#"
                     >
                         <i className="bi bi-journal-text"></i>
-                        <span>Forms</span>
+                        <span>Applications</span>
                         <i className="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul
@@ -70,53 +64,16 @@ function SideBar() {
                         <li>
                             <a href="#">
                                 <i className="bi bi-circle"></i>
-                                <span>Application Form</span>
+                                <span>Recruiters</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <i className="bi bi-circle"></i>
-                                <span>Release Form</span>
+                                <span>Job Seekers</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i className="bi bi-circle"></i>
-                                <span>Cancellation Form</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li className="nav-item">
-                    <a
-                        className="nav-link collapsed"
-                        data-bs-target="#tables-nav"
-                        data-bs-toggle="collapse"
-                        href="#"
-                    >
-                        <i className="bi bi-layout-text-window-reverse"></i>
-                        <span>Tables</span>
-                        <i className="bi bi-chevron-down ms-auto"></i>
-                    </a>
-                    <ul
-                        id="tables-nav"
-                        className="nav-content collapse "
-                        data-bs-parent="#sidebar-nav"
-                    >
-                        <li>
-                            <a href="#">
-                                <i className="bi bi-circle"></i>
-                                <span>General Tables</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i className="bi bi-circle"></i>
-                                <span>Data Tables</span>
-                            </a>
-                        </li>
-                    </ul>
+                     </ul>
                 </li>
 
                 <li className="nav-item">
@@ -127,7 +84,7 @@ function SideBar() {
                         href="#"
                     >
                         <i className="bi bi-bar-chart"></i>
-                        <span>Charts</span>
+                        <span>Analytics</span>
                         <i className="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul
@@ -138,56 +95,19 @@ function SideBar() {
                         <li>
                             <a href="#">
                                 <i className="bi bi-circle"></i>
-                                <span>Chart.js</span>
+                                <span>Graphs</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <i className="bi bi-circle"></i>
-                                <span>ApexCharts</span>
+                                <span>Pie Charts</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <i className="bi bi-circle"></i>
                                 <span>ECharts</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li className="nav-item">
-                    <a
-                        className="nav-link collapsed"
-                        data-bs-target="#icons-nav"
-                        data-bs-toggle="collapse"
-                        href="#"
-                    >
-                        <i className="bi bi-gem"></i>
-                        <span>Icons</span>
-                        <i className="bi bi-chevron-down ms-auto"></i>
-                    </a>
-                    <ul
-                        id="icons-nav"
-                        className="nav-content collapse "
-                        data-bs-parent="#sidebar-nav"
-                    >
-                        <li>
-                            <a href="#">
-                                <i className="bi bi-circle"></i>
-                                <span>Bootstrap Icons</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i className="bi bi-circle"></i>
-                                <span>Remix Icons</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i className="bi bi-circle"></i>
-                                <span>Boxicons</span>
                             </a>
                         </li>
                     </ul>
